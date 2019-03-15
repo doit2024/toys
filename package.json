@@ -1,0 +1,23 @@
+{
+  "name": "toys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "loveReading.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niuDazhuang/toys.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niuDazhuang/toys/issues"
+  },
+  "homepage": "https://github.com/niuDazhuang/toys#readme",
+  "dependencies": {
+    "easy-get-last-chapter": "^1.0.1",
+    "superagent": "^4.1.0"
+  }
+}
