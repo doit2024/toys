@@ -17,6 +17,6 @@ superagent
     // 统计出现次数
     const counts = rst
       .map(xs => xs.sort((a, b) => (a - b)))
-      // .map(xs => xs.reduce((p, x) => (p[x] ? (p[x]++) : (p[x] = 1), p), {}))
+      .map(xs => xs.reduce((p, x) => ((p[x] ? (p[x]++) : (p[x] = 1)), p), {}))
     console.log(counts)
   });
