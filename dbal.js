@@ -11,6 +11,6 @@ superagent
 
     for(var i = 0 ; i < boxes.length ; i++){
       var nums = boxes.eq(i).text();
-      console.log(nums)
+      console.log(nums.split(/[^\d]+/).filter(v => v).map(v => v * 1))
     }
   });
